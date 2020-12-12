@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:background="@color/purple_200">
+    <ImageButton
+        android:id="@+id/ib_back2"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+
+        android:background="@drawable/arrow_left"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:textSize="35sp"
+        android:text="收藏的音乐"
+        android:layout_marginLeft="10dp"/>
+
+</LinearLayout>
